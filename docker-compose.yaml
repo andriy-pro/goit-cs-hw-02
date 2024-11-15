@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   web:
     build: .
@@ -13,7 +11,7 @@ services:
 
   db:
     image: postgres:13
-    container_name: postgres_db
+    container_name: goit_hw02_postgres_db
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: 567234
